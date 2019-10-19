@@ -10,9 +10,8 @@ const NewsContainer = (props) => {
     return <NewsArticle article={article} key={article.id} />
   });
 
-
   return (
-    <div>
+    <div className="news-container">
       {articles}
     </div>
   )
