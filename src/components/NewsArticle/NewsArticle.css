@@ -1,0 +1,34 @@
+.article-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 48%;
+  float: right;
+  font-size: 1em;
+  height: 380px;
+  margin: 10px;
+}
+
+.article-container img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+.article-container h2 {
+  font-size: 1em;
+  height: 45px;
+  padding: 10px 20px 30px 15px;
+}
+
+.article-container p {
+  height: 150px;
+  padding: 15px 20px 30px 15px;
+}
+
+.article-container a {
+  background-color: #b56af1;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
