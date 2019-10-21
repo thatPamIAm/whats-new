@@ -1,6 +1,6 @@
-import React from 'react';
-import './Menu.css'
+// import React from 'react';
+// import './Menu.css'
 
-// MENU COMPONENT CODE GOES HERE
+// // MENU COMPONENT CODE GOES HERE
 
-export default Menu;
+// export default Menu;
