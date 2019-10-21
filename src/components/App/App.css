@@ -5,9 +5,8 @@
 }
 
 .app {
-  display: flex;
   background: #141527;
   height: 100vh;
+  overflow: scroll;
   text-align: center;
-  width: 100%;
 }
