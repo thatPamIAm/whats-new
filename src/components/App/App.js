@@ -13,18 +13,13 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      local,
-      entertainment,
-      health,
-      science,
-      technology
+      local
     }
   }
 
   render () {
     return (
       <div className="app">
-        <Menu />
         <NewsContainer articles={this.state.local}/>
       </div>
     );
