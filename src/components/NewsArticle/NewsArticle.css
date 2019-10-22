@@ -5,30 +5,35 @@
   flex-basis: 48%;
   float: right;
   font-size: 1em;
-  height: 380px;
+  height: 500px;
   margin: 10px;
 }
 
 .article-container img {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 180px;
 }
 
 .article-container h2 {
-  font-size: 1em;
+  font-size: 1.25em;
   height: 45px;
   padding: 10px 20px 30px 15px;
 }
 
 .article-container p {
-  height: 150px;
-  padding: 15px 20px 30px 15px;
+  height: 250px;
+  padding: 40px 20px 30px 15px;
 }
 
 .article-container a {
   background-color: #b56af1;
   color: #fff;
+  font-size: 1.25em;
   padding: 10px;
   text-decoration: none;
+}
+
+a i {
+  padding-left: 10rem;
 }
