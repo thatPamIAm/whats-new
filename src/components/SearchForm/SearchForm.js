@@ -32,7 +32,7 @@ class SearchForm extends Component {
     return (
       <form>
         <input type="text" 
-               placeholder="Filter articles"
+               placeholder="Search for news articles here."
                value={this.state.value}
                onChange={e => this.handleChange(e)} />
         <button onClick={e => this.handleClick(e)}>Search Now</button>
