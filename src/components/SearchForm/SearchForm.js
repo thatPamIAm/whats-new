@@ -23,7 +23,6 @@ class SearchForm extends Component {
   }
 
   reset() {
-    console.log('logging')
     this.setState({
       value: ''
     })
