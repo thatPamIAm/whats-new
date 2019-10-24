@@ -7,7 +7,7 @@ const NewsArticle = (props) => {
 
   return (
     <div className="article-container">
-      <img style={{ backgroundImage : `url(${img})` }} />
+      <img style={{ backgroundImage : `url(${img})` }} alt="" />
       <h2>{headline}</h2>
       <p>{description}</p>
       <a href={url}>Link To article<i className="fas fa-long-arrow-alt-right"></i></a>
